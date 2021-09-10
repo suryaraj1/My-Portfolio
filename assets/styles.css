@@ -545,12 +545,6 @@ svg:hover {
   padding: 2rem 0;
 }
 
-.footer_title {
-  font-size: 2rem;
-  margin-bottom: 100px;
-  text-align: center;
-}
-
 .footer_social {
   margin-bottom: var(--mb-4);
 }
@@ -559,6 +553,95 @@ svg:hover {
   font-size: 1.5rem;
   color: #fff;
   margin: 20px;
+}
+
+.footer_social {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-img {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+
+.card-footer a:hover {
+  transform: scale(1.1);
+}
+
+.footer-email-wrapper {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footer-email-header {
+  color: #fafafa;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.footer-email-container {
+  background: #202330;
+  width: 90%;
+  padding: 14px 22px;
+  border-radius: 28px;
+  margin-top: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.4);
+}
+
+.footer-email {
+  font-size: 15px;
+  color: #fafafa;
+  font-weight: 700;
+}
+
+.footer-email i {
+  margin-left: 6px;
+}
+
+.achievements-item:hover .card-footer {
+  bottom: 0px;
+  opacity: 1;
+}
+
+.footer-social-sites {
+  display: flex;
+  width: 160px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-social-sites-header {
+  font-weight: bold;
+  color: #fafafa;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-social-sites-wrapper {
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+  position: relative;
+  right: 20px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footer-social-sites-wrapper i {
+  margin-right: 7px;
+}
+
+.footer-social-sites-wrapper a {
+  font-size: 14px;
 }
 
 .custom-grid {
@@ -889,5 +972,59 @@ svg:hover {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     column-gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer_social {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .footer-email-wrapper {
+    width: 80%;
+    margin-left: 30px;
+  }
+
+  .footer-email-header {
+    font-size: 13px;
+  }
+
+  .footer-social-sites {
+    margin-top: 20px;
+  }
+
+  .footer-social-sites-wrapper {
+    flex-direction: row;
+  }
+
+  .achievements-card .header {
+    font-size: 10px;
+  }
+
+  .achievements-card .content p {
+    font-size: 11px;
+  }
+
+  .footer-email-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-social-sites {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-social-sites-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 6px;
   }
 }
