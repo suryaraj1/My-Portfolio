@@ -60,7 +60,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: var(--normal-font-size);
   color: var(--second-color);
-  background: #171d2d;
+  background: #1a202c;
 }
 
 a {
@@ -378,7 +378,7 @@ img {
 }
 
 .project-item {
-  background: #202330;
+  background: #161b25;
   box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.4);
   border: 3px solid rgba(0, 151, 251, 0.25);
   border-radius: 5px;
@@ -664,7 +664,7 @@ svg:hover {
   flex-direction: column;
   text-align: center;
   font-size: 24px;
-  background-color: #202330;
+  background-color: #161b25;
   border: 3px solid rgba(0, 151, 251, 0.25);
   box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.4);
   justify-self: center;
