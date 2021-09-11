@@ -1046,4 +1046,9 @@ svg:hover {
     position: relative;
     left: 6px;
   }
+
+  .footer_icon.linkedin {
+    position: relative;
+    top: 0px;
+  }
 }
