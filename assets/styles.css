@@ -390,7 +390,6 @@ img {
   flex-direction: column;
   position: relative;
   height: 100%;
-  cursor: pointer;
   transition: 0.3s ease;
 }
 
@@ -406,6 +405,17 @@ img {
   -webkit-box-align: center;
   align-items: center;
   margin-bottom: 35px;
+}
+
+.tools-section-github {
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.tools-section-github p {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
 }
 
 .tools-section img {
