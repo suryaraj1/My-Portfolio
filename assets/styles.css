@@ -184,7 +184,7 @@ img {
 
 .home {
   position: relative;
-  bottom: 100px;
+  bottom: 200px;
   height: calc(100vh - 3rem);
   row-gap: 1rem;
 }
