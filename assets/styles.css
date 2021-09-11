@@ -654,6 +654,11 @@ svg:hover {
   font-size: 14px;
 }
 
+.footer_icon.linkedin {
+  position: relative;
+  bottom: 20px;
+}
+
 .custom-grid {
   /* check for media queries */
   grid-template-columns: 1fr 1fr;
