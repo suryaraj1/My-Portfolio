@@ -698,6 +698,28 @@ svg:hover {
 
 .achievements-card .content.icpc {
   margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.read-more-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  top: 20px;
+}
+
+.read-more {
+  font-size: 13px;
+  color: #bebebe;
+  font-weight: 600;
+  display: flex;
+}
+
+.read-more svg {
+  font-size: 8px;
 }
 
 .achievements-card:hover {
@@ -738,7 +760,7 @@ svg:hover {
   color: green;
 }
 
-.achievements-card .content p {
+.achievements-card .content .content-title {
   font-size: 24px;
   margin: 6px;
   font-weight: 700;
