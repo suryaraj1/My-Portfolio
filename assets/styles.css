@@ -505,6 +505,10 @@ img {
   transition: 0.3s ease;
 }
 
+.project-section-btn:hover svg {
+  animation: sway 1000ms infinite;
+}
+
 .project-item:hover {
   transform: scale(1.025);
   background-color: transparent;
@@ -722,6 +726,10 @@ p:last-of-type {
 .achievements-section-btn:hover {
   background: transparent;
   border: 1px solid #08a0e9;
+}
+
+.achievements-section-btn:hover svg {
+  animation: sway 1000ms infinite;
 }
 
 .footer-social-sites {
@@ -1266,4 +1274,16 @@ p:last-of-type {
 
 .dummy-wrapper {
   height: 90px;
+}
+
+@keyframes sway {
+  0% {
+    transform: translateX(-3px);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  100% {
+    transform: translateX(-3px);
+  }
 }
