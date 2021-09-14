@@ -1172,12 +1172,26 @@ svg:hover {
     height: 330px;
   }
 
+  .achievements-section-btn-wrapper {
+    margin-bottom: 30px;
+  }
+
+  .achievements-text p {
+    font-size: 14px;
+  }
+
   .content-title {
     font-size: 10px;
   }
 
   .content-text {
     font-size: 8px;
+  }
+
+  .back-btn-wrapper {
+    position: relative;
+    right: 340px;
+    margin-bottom: 10px;
   }
 }
 
