@@ -622,6 +622,11 @@ p:last-of-type {
   padding: 2rem 0;
 }
 
+.footer.external {
+  position: relative;
+  top: 140px;
+}
+
 .footer_social {
   margin-bottom: var(--mb-4);
 }
