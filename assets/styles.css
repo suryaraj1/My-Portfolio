@@ -323,6 +323,11 @@ img {
   width: 295px;
 }
 
+.home_image img {
+  height: 400px;
+  width: 500px;
+}
+
 .slant {
   background: #202330;
   margin-bottom: 0;
@@ -1168,6 +1173,14 @@ p:last-of-type {
 }
 
 @media screen and (max-width: 500px) {
+  .home_data {
+    position: relative;
+    top: 140px;
+  }
+
+  .home_image img {
+    display: none;
+  }
   .footer_social {
     width: 100%;
     flex-direction: column;
