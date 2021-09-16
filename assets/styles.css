@@ -786,7 +786,6 @@ p:last-of-type {
   /* check for media queries */
   grid-template-columns: 1fr;
   gap: 50px 20px;
-  margin-left: 35px;
 }
 
 #section-title {
