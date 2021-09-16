@@ -40,6 +40,7 @@ sr.reveal('.project-section-btn-wrapper', { interval: 400 });
 
 sr.reveal('.skill-item', { interval: 200 });
 
+sr.reveal('.blog-wrapper', { interval: 200 });
 sr.reveal('.achievements-card', { interval: 200 });
 sr.reveal('.achievements-text', { interval: 300 });
 sr.reveal('.achievements-section-btn-wrapper', { interval: 400 });
