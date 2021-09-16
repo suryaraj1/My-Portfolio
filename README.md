@@ -1,5 +1,7 @@
 <h1 align="center">My Portfolio</h1>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/472213ce-73ae-48f8-9709-b69024f4ea3f/deploy-status)](https://suryaraj-bhaduri-1216.netlify.app/deploys)
+
 <p>This is my portfolio 🎉</p>
 
 <h2>🚀 Demo</h2>
