@@ -556,6 +556,15 @@ p:last-of-type {
   color: rgb(165, 163, 163);
 }
 
+.footer-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 12px;
+}
+
 .tech-section {
   display: flex;
   align-items: flex-end;
@@ -571,13 +580,34 @@ p:last-of-type {
 }
 
 .tech-section img {
-  height: 29px;
+  height: 25px;
 }
 
 .tech-section li .css-3 {
   height: 34px;
   position: relative;
   top: 2px;
+}
+
+.project-label-wrapper {
+  padding: 0 12px;
+  background: #1d3f53;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: 2px solid #1d3f53;
+  margin-top: 10px;
+}
+
+.project-label-wrapper.mark-3 {
+  width: 100px;
+}
+
+.project-label {
+  font-weight: 600;
+  font-size: 13px;
+  color: #a0aec0;
 }
 
 .skill-title {
@@ -1281,9 +1311,9 @@ p:last-of-type {
   }
 
   .blog-content-btn-wrapper {
-    margin-top: 34px;
     position: relative;
     bottom: 20px;
+    margin-top: 22px;
   }
 
   .blog-content {
@@ -1293,6 +1323,10 @@ p:last-of-type {
   .blog-sub-information-wrapper {
     position: relative;
     bottom: 14px;
+  }
+
+  .footer-wrapper {
+    margin-bottom: 20px;
   }
 }
 
